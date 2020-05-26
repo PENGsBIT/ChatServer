@@ -95,5 +95,5 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7 conda_py27" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 tensorflow" project-jdk-type="Python SDK" />
 </project>

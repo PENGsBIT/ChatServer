@@ -18,7 +18,9 @@
 |s.close()|关闭套接字| 
 	
 #服务器支持多客户端连接以及io复用	
+##python 3.x
+selectors 模块能在 select 模块原型的基础上进行高级且高效的 I/O 复用。推荐用户改用 selectors 模块，除非用户希望对 OS 级的函数原型进行精确控制。  
 	
-	
-	
+selectors定义了一个BaseSelector抽象基类，以及几个具体的实现（KqueueSelector，EpollSelector…），可用于等待多个文件对象的I / O准备就绪通知。	
+实例见[DefaultSelector Demo.py](./Multiple%20Client%20Connections/DefaultSelector%20Demo.py)	
 	
